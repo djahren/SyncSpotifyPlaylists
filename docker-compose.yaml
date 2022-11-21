@@ -1,0 +1,8 @@
+version: '3'
+services:
+  sync_playlists:
+    container_name: sync_playlists
+    restart: unless-stopped
+    build: .
+    volumes:
+      - "./config:/app/config"

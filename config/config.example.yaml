@@ -1,0 +1,16 @@
+client:
+  id: 
+  secret: 
+
+run_every: 5 #minutes
+
+playlists:
+  my_source_playlist: "https://open.spotify.com/playlist/37i9dQZF1DWY0TJvcbosib?si=8f58b112b8df4bcd"
+  my_2nd_source_playlist: "https://open.spotify.com/playlist/37i9dQZF1DX1BGjF5N5O7F?si=076969f29c0f47ef"
+  my_destination_playlist: "7u6vmprOTGkoy754orkDdT"
+
+sync:
+  - src: "my_source_playlist"
+    dst: "my_destination_playlist"
+  - src: "my_2nd_source_playlist"
+    dst: "my_destination_playlist"
